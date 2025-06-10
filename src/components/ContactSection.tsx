@@ -34,21 +34,21 @@ const ContactSection = () => {
           </div>
 
           {/* Контакты */}
-          <div className="bg-gray-50 rounded-2xl p-8">
+          <div className="bg-gray-50 rounded-lg p-8">
             <h3 className="text-3xl font-bold text-gray-800 mb-8 font-montserrat">
               Наши контакты
             </h3>
 
             <div className="space-y-6">
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center">
+                <div className="w-12 h-12 bg-gray-900 rounded-lg flex items-center justify-center">
                   <Icon name="Phone" size={24} className="text-white" />
                 </div>
                 <div>
                   <p className="text-gray-500 text-sm font-medium">Телефон</p>
                   <a
                     href="tel:+79635265193"
-                    className="text-xl font-bold text-gray-800 hover:text-primary transition-colors"
+                    className="text-xl font-bold text-gray-800 hover:text-gray-900 transition-colors"
                   >
                     +7963 526 5193
                   </a>
@@ -56,14 +56,14 @@ const ContactSection = () => {
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center">
+                <div className="w-12 h-12 bg-gray-900 rounded-lg flex items-center justify-center">
                   <Icon name="Mail" size={24} className="text-white" />
                 </div>
                 <div>
                   <p className="text-gray-500 text-sm font-medium">Email</p>
                   <a
                     href="mailto:demim.ceo@gmail.com"
-                    className="text-xl font-bold text-gray-800 hover:text-primary transition-colors"
+                    className="text-xl font-bold text-gray-800 hover:text-gray-900 transition-colors"
                   >
                     demim.ceo@gmail.com
                   </a>
@@ -71,7 +71,7 @@ const ContactSection = () => {
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center">
+                <div className="w-12 h-12 bg-gray-900 rounded-lg flex items-center justify-center">
                   <Icon name="MapPin" size={24} className="text-white" />
                 </div>
                 <div>
@@ -87,10 +87,10 @@ const ContactSection = () => {
                   Социальные сети
                 </p>
                 <div className="flex gap-3">
-                  <div className="w-12 h-12 bg-blue-500 rounded-xl flex items-center justify-center cursor-pointer hover:scale-105 transition-transform">
+                  <div className="w-12 h-12 bg-gray-700 rounded-lg flex items-center justify-center cursor-pointer hover:bg-gray-800 transition-colors">
                     <span className="text-white font-bold">Вк</span>
                   </div>
-                  <div className="w-12 h-12 bg-blue-400 rounded-xl flex items-center justify-center cursor-pointer hover:scale-105 transition-transform">
+                  <div className="w-12 h-12 bg-gray-700 rounded-lg flex items-center justify-center cursor-pointer hover:bg-gray-800 transition-colors">
                     <Icon name="Send" size={20} className="text-white" />
                   </div>
                 </div>

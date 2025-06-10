@@ -60,17 +60,17 @@ const PortfolioSection = () => {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="group cursor-pointer overflow-hidden rounded-2xl bg-white shadow-sm hover:shadow-xl transition-all duration-300"
+              className="group cursor-pointer overflow-hidden rounded-lg bg-white shadow-sm hover:shadow-md transition-shadow duration-300"
             >
               <div className="aspect-[4/3] overflow-hidden">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
-                <span className="text-primary text-sm font-medium uppercase tracking-wide">
+                <span className="text-gray-700 text-sm font-medium uppercase tracking-wide">
                   {project.category}
                 </span>
                 <h3 className="text-xl font-bold text-gray-800 mt-2 font-montserrat">

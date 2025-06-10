@@ -2,11 +2,11 @@ import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-50 to-white px-6">
+    <section className="min-h-screen flex items-center justify-center bg-white px-6">
       <div className="max-w-4xl text-center">
         <h1 className="text-5xl md:text-7xl font-bold text-gray-800 mb-6 font-montserrat">
           Дизайн Интерьеров
-          <span className="block text-primary mt-2">& Хоум-стейджинг</span>
+          <span className="block text-gray-900 mt-2">& Хоум-стейджинг</span>
         </h1>
         <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto font-open-sans leading-relaxed">
           Создаем пространства, которые вдохновляют. Профессиональный дизайн
